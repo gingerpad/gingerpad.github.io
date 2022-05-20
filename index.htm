@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+
+        <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+        <link rel="stylesheet" href="/css/styles.css">
+    </head>
+    <body>
+        <div id="skrollr-body">
+            <div class="container skrollable" style="background: rgb(230,244,255); display: block;" data-0="background: rgb(230,244,255);" data-1000="background: rgb(255,255,255);">
+                <div class="scene park skrollable">
+                    <div class="avatar skrollable" data-0="left: -18%;" data-2000="left: 6%;">
+                        <div class="body-part back-arm skrollable" data-0="transform: rotate(0deg);" data-500="transform: rotate(45deg);" data-1500="transform: rotate(-45deg);" data-2000="transform: rotate(0deg);">
+                            <img src="/img/avatars/arm.svg">
+                        </div>
+                        <div class="body-part back-leg skrollable" data-0="top: 70%; left: 21%;" data-500="top: 70%; left: 18%;" data-750="top: 68%; left: 21%;" data-1000="top: 70%; left: 24%;" data-1500="top: 70%; left: 18%;" data-1750="top: 68%; left: 21%;" data-2000="top: 70%; left: 21%;">
+                            <img src="/img/avatars/leg.svg">
+                        </div>
+                        <div class="body-part front-leg skrollable" data-0="top: 70%; left: 18%;" data-250="top: 68%; left: 21%;" data-500="top: 70%; left: 24%;" data-1000="top: 70%; left: 18%;" data-1250="top: 68%; left: 21%;" data-1500="top: 70%; left: 24%;" data-2000="top: 70%; left: 18%;">
+                            <img src="/img/avatars/leg.svg">
+                        </div>
+                        <div class="body-part body skrollable">
+                            <img src="/img/avatars/body.svg">
+                        </div>
+                        <div class="body-part front-arm skrollable" data-0="transform: rotate(0deg);" data-500="transform: rotate(-45deg);" data-1500="transform: rotate(45deg);" data-2000="transform: rotate(0deg);">
+                            <img src="/img/avatars/arm.svg">
+                        </div>
+                        <div class="body-part head skrollable" data-0="top: 0%;" data-500="top: 1%;" data-1000="top: 0%;" data-1500="top: 1%" data-2000="top: 0%;">
+                            <img src="/img/avatars/head.svg">
+                        </div>
+                    </div>
+                    <div class="football skrollable" data-0="right: -8%; top: 68%; transform: rotate(0deg);" data-500="right: 10%; top: 79%; transform: rotate(-180deg);" data-750="right: 17%; top: 75%; transform: rotate(-240deg);" data-1000="right: 24%; top: 79%; transform: rotate(-300deg);" data-1200="right: 26%; transform: rotate(-320deg);">
+                        <img src="/img/elements/football.svg">
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <script type="text/javascript" src="/js/jquery-3.6.0.js"></script>
+        <script type="text/javascript" src="/js/skrollr.min.js"></script>
+
+        <script type="text/javascript">
+            $(function() {
+                skrollr.init({
+                    smoothScrolling: true,
+                    easing: 'swing'
+                });
+            });
+        </script>
+    </body>
+</html>
